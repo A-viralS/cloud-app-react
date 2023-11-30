@@ -13,6 +13,7 @@ function App() {
       <Hero />
       <Support /> 
       <About />
+      <Pricing/>
       
 
 
