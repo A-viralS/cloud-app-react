@@ -11,11 +11,12 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Support /> 
       <About />
-      <Support />
-      <AllInOne />
-      <Pricing />
-      <Footer />
+      
+
+
+     
     </>
   );
 }
