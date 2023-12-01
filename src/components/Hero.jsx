@@ -1,5 +1,6 @@
+import { CursorClickIcon } from '@heroicons/react/outline';
 import React from 'react';
-
+import { Link, animateScroll as scroll, } from 'react-scroll'
 const Hero = () => {
   return (
     <div
@@ -15,7 +16,17 @@ const Hero = () => {
           <p className='text-2xl'>Unique Sequencing & Production</p>
           <h1 className='py-3 text-5xl md:text-7xl font-bold'>Breathe Easy, Craft Beautifully</h1>
           <p className='text-2xl'>Safeguarding Bangle Artistry with GuardianCraft Masks </p>
-          <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button>
+          <Link
+  className='py-4 px-8 sm:w-[70%] my-4 text-lg font-bold border-2 border-indigo-500 rounded-full'
+  to="support"
+  smooth={true}
+  offset={-50}
+  duration={500}
+ 
+>
+  Check Quality
+</Link>
+
         </div>
         <div>
           <div className="flex">
