@@ -26,7 +26,7 @@ const Support = () => {
             <p>Safe range: 280ppm to 350ppm</p>
         </div>
         <div
-          className={`w-20 h-20 rounded-full border ${ppmValue > 50 ? 'bg-red-500' : 'bg-green-500'}`}
+          className={`w-20 h-20 rounded-full border ${ppmValue > 350 ? 'bg-red-500' : 'bg-green-500'}`}
         ></div>
         <p className="text-center mt-4">
           {ppmValue > 350
