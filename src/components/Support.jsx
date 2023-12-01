@@ -29,7 +29,7 @@ const Support = () => {
           className={`w-20 h-20 rounded-full border ${ppmValue > 50 ? 'bg-red-500' : 'bg-green-500'}`}
         ></div>
         <p className="text-center mt-4">
-          {ppmValue > 250
+          {ppmValue > 350
             ? 'High pollution levels detected. Take necessary precautions.'
             : 'Air quality is good. Keep it up!'}
         </p>
